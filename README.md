@@ -4,7 +4,7 @@ This repository contains a practice flask app which connects to a Redis database
 - make sure you can run the application locally
 - build a docker file to run the application inside docker
 - write a docker-compose.yml file in order to run the application along side with a redis container
-- write corresponding kubernets pods, services and deployment file
+- write corresponding kubernetes pods, services and deployment file
 
 ## 1.Running the application locally
 
@@ -50,7 +50,7 @@ Now, running the app in a containered fashion locally is awesome, but now we wan
 - application service file
 - appplication deployment file
 - redis pod file
-- redis servive file
+- redis service file
 
 Please place those files inside a k8_configs folder at the root of the project.
 
